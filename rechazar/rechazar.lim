@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <autor>Daniel Cabrera</autor>
+        <logo>LOGO.png</logo>
+        <imaxefondo posx="-96" posy="2" trans="40">FONDO.png</imaxefondo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="CORRECTO.mp3" modo="1" >CORRECTO</correcto>
+        <incorrecto son="FALLO.mp3" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>16</tipo>
+              <son auto="1">primero.mp3</son>
+              <externa>Primera.png</externa>
+        </paxina>
+        <paxina id="2" >
+              <tipo>16</tipo>
+              <son auto="1">segundo.mp3</son>
+              <externa>segunda.png</externa>
+        </paxina>
+        <paxina id="3" >
+              <tipo>19</tipo>
+              <pe>Encuentra la palabra de acuerdo al siguiente enunciado</pe>
+              <texto><![CDATA[Debemos hacer a un lado para reducir la contaminación]]></texto>
+              <resp texto="">rechazar</resp>
+              <modo>1</modo>
+              <forma>1</forma>
+        </paxina>
+        <paxina id="4" >
+              <tipo>18</tipo>
+              <pe>Complete las frases de acuerdo a lo aprendido</pe>
+              <modo>3</modo>
+              <completa ant="Debemos usar vasos de" post="para evitar la contaminacion">vidrio</completa>
+              <completa ant="Evitar tomar liquidos con" post="de plastico">pitillos</completa>
+              <completa ant="Debemos cargar siempre " post="pequeñas para limpiar nuestro rostro">toallas</completa>
+              <completa ant="Evitar usar" post="de plastico">cubiertos</completa>
+        </paxina>
+    </libro>
+</lim>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<manifest identifier="LIM" version="1.1"
+ xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+ xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2     imscp_rootv1p1p2.xsd 
+ http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">	
+ <metadata>
+ <schema>ADL SCORM</schema>
+ <schemaversion>1.2</schemaversion>
+  
+ </metadata>
+  <organizations default="TOC1">
+    <organization identifier="TOC1">
+      <title>LIM</title>
+      <item identifier="ITEM1" identifierref="RESOURCE1">
+        <title>rechazar</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+       	<resource identifier="RESOURCE1" type="webcontent" adlcp:scormtype="sco" href="rechazar.html">
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+      </metadata>
+   <file href="rechazar.html" />	  
+	  <file href="lim.swf" />	
+	  <file href="rechazar.lim" />	
+    </resource>
+  </resources>
+</manifest>
